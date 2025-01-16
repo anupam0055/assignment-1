@@ -1,0 +1,50 @@
+.fira-sans-normal {
+    font-family: "Fira Sans", serif;
+    font-style: normal;
+  }
+  /* *{
+    margin:0px 110px;
+  } */
+   /* shared style */
+   .primary-btn{
+
+   }
+  /* nav style */
+  nav{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .nav-title{
+    font-size: 32px;
+    font-weight: bold;
+    color: #0E0E0E;
+  }
+  .nav-btn{
+    width: 116px;
+    height: 52;
+    color: #006A50;
+    background-color: none;
+    border-color: #006A50;
+    border-style: dashed;
+    border-radius: 8px;
+    padding: 15px 30px;
+  }
+  nav>span{
+    font-size: 18px;
+    font-weight:600;
+  }
+  .hero{
+    background-color: #C6E4D6;
+  }
+  .hero-content{
+
+  }
+    .hero-subtitle{
+        font-weight: 500;
+        font-size: 24px;
+        color: #0E0E0E;
+  }
+  .hero-description{
+
+  }
