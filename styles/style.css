@@ -105,7 +105,7 @@
   font-weight: bold;
   color: #0E0E0E;
   }
-  .card-description ,.third-sec-des{
+  .description{
     color: rgba(14, 14, 14, 0.7);
     font-weight: normal;
     font-size: 16px;
@@ -137,3 +137,125 @@
   .btn-y{
     background-color: #FFC239;
   }
+  .news-title{
+    font-size: 32px;
+    font-weight: bold;
+    color: rgba(14, 14, 14, 0.8);
+  }
+  .recent-news-img{
+    width: 408px;
+    height: 306px;
+    border-radius: 24px;
+  }
+  .recent-news-1{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    background-color: #FFFFFF;
+    margin-top: 25px;
+    padding: 25px;
+    border: none;
+    border-radius: 24px;
+  }
+  /* .news-btn-sec{
+    
+    justify-content: center;
+    border: none;
+    align-items: center;
+  } */
+  .news-btn{
+    background-color: #006A50;
+    border-radius: 8px; 
+    width: 139px;
+    height: 45px;
+    border: none;
+
+  }
+  .secondary-btn{
+    font-size: 18px;
+    font-weight: 600;
+    color: #FFFFFF;
+    text-align: center;
+    }
+  .recent-news-2{
+      background-color: #FFFFFF;
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+      flex-direction: row-reverse;
+      margin-top: 25px;
+      padding: 25px;
+      border: none;
+      border-radius: 24px;
+  }
+  .donate{
+
+  }
+  .donate-title{
+    text-align: center;
+  }
+  .amount{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  .taka{
+    /* width: max-content;
+    height: max-content; */
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 16px;
+    font-size: 40px;
+    font-weight: bold;
+    color: rgba(14, 14, 14, 0.8);
+    padding: 30px 60px;
+    margin-top: ;
+    text-align: center;
+    
+  }
+  .tk-color{
+    background-color: rgba(198, 228, 214, 1);
+  }
+  .donate-amount{
+    text-align: center;
+    margin-top: 50px;
+    
+  }
+  .tk{
+    width: 80%;
+    height: 50px;
+    background-color: #FFFFFF;
+   border: none;
+   align-content: center;
+
+  }
+ .donate-now-btn{
+  margin: 20px;
+  text-align: center;
+ }
+ .subcribe{
+  background: #C6E4D6;
+  text-align: center;
+  align-items: center;
+  padding: 30px;
+  border: none;
+  border-radius: 24px;
+ }
+ .sub-input{
+  display: flex;
+  gap: 0px;
+  justify-content: center;
+  margin: 20px;
+ }
+ .subcribe-btn{
+  border: none;
+  border-radius: 0px 5px 5px 0px;
+  padding: 12px;
+  background-color: #006A50;
+ }
+ .sub-email{
+ border: none;
+ border-radius: 5px 0px 0px 5px;
+ padding: 12px;
+width: 300px;
+ }
