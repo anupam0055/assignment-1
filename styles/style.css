@@ -15,6 +15,9 @@
       font-weight: 500;
       font-size: 18px;
       border: none;
+      cursor: pointer;
+      transition: .5s;
+      overflow: hidden;
 
    }
   /* nav style */
@@ -37,6 +40,9 @@
     border-style: dashed;
     border-radius: 8px;
     padding: 15px 30px;
+    cursor: pointer;
+    transition: .5s;
+    overflow: hidden;
   }
   nav>span{
     font-size: 18px;
@@ -121,6 +127,9 @@
     margin: 0px;
     color: #FFFFFF;
     border: none;
+    cursor: pointer;
+    transition: .5s;
+    overflow: hidden;
     
   }
   .third>.card>span{
@@ -130,6 +139,8 @@
   }
   .btn-b{
     background-color:#5490F5;
+
+    
   }
   .btn-g{
     background-color: #09A15C;
@@ -169,6 +180,9 @@
     width: 139px;
     height: 45px;
     border: none;
+    cursor: pointer;
+    transition: .5s;
+    overflow: hidden;
 
   }
   .secondary-btn{
@@ -211,6 +225,9 @@
     padding: 30px 60px;
     margin-top: ;
     text-align: center;
+    cursor: pointer;
+    transition: .5s;
+    overflow: hidden;
     
   }
   .tk-color{
@@ -232,6 +249,9 @@
  .donate-now-btn{
   margin: 20px;
   text-align: center;
+  cursor: pointer;
+  transition: .5s;
+  overflow: hidden;
  }
  .subcribe{
   background: #C6E4D6;
@@ -252,10 +272,26 @@
   border-radius: 0px 5px 5px 0px;
   padding: 12px;
   background-color: #006A50;
+  cursor: pointer;
+  transition: .5s;
+  overflow: hidden;
+  
  }
  .sub-email{
  border: none;
  border-radius: 5px 0px 0px 5px;
  padding: 12px;
 width: 300px;
+ }
+ .trans-color:hover{
+  color: #009D76;
+ }
+ .chef-adv{
+  background-color: #FFFFFF;
+  border-radius: 16px;
+  padding: 10px;
+ }
+ .chef-adv-speech{
+  background-image: url(./../assets/quote-bg.png);
+  background-repeat: no-repeat;
  }
