@@ -2,10 +2,7 @@
     font-family: "Fira Sans", serif;
     font-style: normal;
   }
-  /* *{
-    margin:0px 50px;
-  } */
-   /* shared style */
+ 
    .primary-btnn{
       background-color: #006A50;
       color: #FFFFFF;
@@ -92,7 +89,10 @@
  .cards{
   display: flex;
   gap: 24px;
+
  }
+ 
+ 
   .card{
     background-color:#FFFFFF ;
     border-radius: 16px;
@@ -101,11 +101,8 @@
     border-color: rgba(14, 14, 14, 0.15);
     padding: 15px;
     margin: 10px 0px 2px 0px;
-
-  }
-  .icon{
-    
-  }
+}
+  
   .card-title,.sec-title{
     font-size: 20px;
   font-weight: bold;
@@ -168,12 +165,7 @@
     border: none;
     border-radius: 24px;
   }
-  /* .news-btn-sec{
-    
-    justify-content: center;
-    border: none;
-    align-items: center;
-  } */
+  
   .news-btn{
     background-color: #006A50;
     border-radius: 8px; 
@@ -202,9 +194,7 @@
       border: none;
       border-radius: 24px;
   }
-  .donate{
 
-  }
   .donate-title{
     text-align: center;
   }
@@ -214,8 +204,7 @@
     margin-top: 20px;
   }
   .taka{
-    /* width: max-content;
-    height: max-content; */
+
     background-color: #FFFFFF;
     border: none;
     border-radius: 16px;
@@ -290,8 +279,17 @@ width: 300px;
   background-color: #FFFFFF;
   border-radius: 16px;
   padding: 10px;
+  margin: 20px;
  }
  .chef-adv-speech{
   background-image: url(./../assets/quote-bg.png);
   background-repeat: no-repeat;
+  background-size: 40px;
+  
+ }
+ .taka:hover{
+  transform: scale(1.2);
+ }
+ .primary-btn:hover{
+  transform: scale(1.2);
  }
